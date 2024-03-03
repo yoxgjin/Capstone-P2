@@ -1,0 +1,201 @@
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    color: #393E46;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+section{
+    background-color: #F7F7F7;
+    width: 800px;
+    margin: 20px;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+#except{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+button{
+    border: 0px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    color: #F7F7F7;
+    background-color: #393E46;
+}
+
+.head{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    gap: 41.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    height: 30px;
+    width: 30px;
+}
+
+#name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Sofia, sans-serif;
+    margin-bottom: 0px;
+}
+
+#profile{
+    background-color: #EEEEEE;
+    padding: 0px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+}
+
+.image{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+
+.content{
+    background-color: #F7F7F7;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.profile img{
+    height: 300px;
+    border-radius: 7.5px;
+}
+
+.profile svg{
+    height: 12.5px;
+    width: 12.5px;
+}
+
+span{
+    font-size: small;
+}
+
+.current button{
+    color: #393E46;
+    background-color: #F7F7F7;
+    border: 1px solid #929AAB;
+    padding: 3px 20px;
+    margin-bottom: 20px;
+}
+
+.current svg{
+    height: 20px;
+    width: 20px;
+}
+
+.fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.types{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.special > svg{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.spacing p{
+    margin-bottom: 0px;
+}
+
+.social{
+    margin-top: 25px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 799px){
+    body{
+        font-size: small;
+    }
+
+    section{
+        width: 325px;
+    }
+
+    button{
+        padding: 5px 12.5px;
+    }
+    
+    .head{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .nav{
+        display: flex;
+        gap: 21px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    svg{
+        height: 22.5px;
+        width: 22.5px;
+    }
+
+    #extra{
+        font-size: 0%;
+    }
+
+    #name{
+        font-size: 35px;
+    }
+
+    .profile{
+        display: grid;
+    }
+
+    .profile img{
+        height: 455px;
+        width: 325px;
+    }
+
+    .profile svg{
+        height: 10px;
+        width: 10px;
+    }
+
+    span{
+        font-size: smaller;
+    }
+
+    .current button{
+        padding: 3px 10px;
+        margin-bottom: 10px;
+        font-size: 12.5px;
+    }
+    
+    .current svg{
+        height: 12.5px;
+        width: 12.5px;
+    }
+}
